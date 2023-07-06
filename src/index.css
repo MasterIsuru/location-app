@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-transform-capitalize {
+  text-transform: capitalize;
+}
+
+.pt-px-140 {
+  padding-top: 140px;
+}
+
+.mt-px-30 {
+  margin-top: 30px;
+}
+
+.search-field {
+  color: black;
+  margin-top: 5px;
+}
+
+.demo-logo {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #222;
+}
+
+.site-layout {
+  padding: 0 50px;
+}
+
+.search-result-container {
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.page-container {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.page-content {
+  padding: 24px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.breadcrumb-container {
+  margin: 16px 0px;
+}
